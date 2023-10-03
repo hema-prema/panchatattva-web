@@ -1,0 +1,363 @@
+/* Global Styles */
+
+/* Styles for .carousel-inner */
+.carousel-inner img {
+    position: relative;
+    z-index: 0;
+    width: auto;
+    height: 800px;
+}
+
+/* Styles for Buttons */
+.button-al {
+    display: flex;
+    margin-top: 400px;
+}
+
+.button-al:hover {
+    background-color: transparent;
+}
+
+/* Screen1 Styles */
+
+.card-types {
+    display: inline-grid;
+    margin: 60px 0px 20px 280px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 28px;
+    width: 1324px;
+    height: 389px;
+}
+
+.card-items {
+    border: solid 1px #936F01;
+    text-align: center;
+    width: 310px;
+    height: 400px;
+}
+
+.card-types img {
+    padding: 20px 124px;
+    background-color: #936F01;
+}
+
+.card-items h3 {
+    padding-bottom: 20px;
+    background-color: #936F01;
+}
+
+.card-items p {
+    margin: 50px;
+    max-width: 211px;
+    max-height: 180px;
+    text-align: justify;
+    font-size: 13px;
+    align-items: center;
+}
+.card-items a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    color: #936F01 !important;
+    text-decoration: underline !important;
+}
+
+/* Screen2 Styles */
+.about h1 {
+    display: flex;
+    justify-content: center;
+    margin: 80px;
+}
+
+.about_block {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 280px;
+}
+
+.video_about {
+    margin-left: 280px;
+    background-color: rgba(147, 111, 1, 0.6);
+    width: 502px;
+    height: auto;
+    border-radius: 6px;
+    z-index: 0;
+}
+
+.video {
+    margin: 80px;
+    z-index: 1;
+}
+
+.read_about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 533px;
+    height: 368px;
+}
+
+.read_about h3 {
+    color: #936F01;
+    margin-right: 85px;
+}
+
+.read_about button {
+    width: 30%;
+    color: #936F01;
+    background-color: transparent;
+    border: solid 1px #936F01;
+    border-radius: 10px;
+}
+
+/* Screen3 Styles */
+.first h1 {
+    display: flex;
+    justify-content: center;
+    margin: 80px;
+}
+
+.choose {
+    padding: 0 10%;
+    background-color: #936F01;
+}
+
+.choose_us {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 440px;
+    margin: 70px 0px;
+    padding-left: 60px;
+    font-size: 11px;
+}
+
+.choose-items h5 {
+    color: #0a0903;
+}
+
+.choose-items p {
+    text-align: center;
+}
+
+.choose-items {
+    background-color: rgb(255, 255, 255);
+    border-radius: 100%;
+    width: 340px;
+    height: 340px;
+    padding: 60px;
+    margin: 0px;
+}
+
+/* Healing Center Styles */
+.flower {
+    position: relative;
+    background-image: url("images/leaf1.png"), url("images/leaf2.png");
+    background-repeat: no-repeat, no-repeat;
+    background-position: left bottom, right top;
+}
+
+.heal h1 {
+    display: flex;
+    justify-content: center;
+    margin: 80px;
+}
+
+.healing_center {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 100px 290px;
+}
+
+.heal-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 360px;
+    height: 443px;
+    border-radius: 10px;
+    background-color: rgba(147, 111, 1, 0.6);
+}
+
+.heal-items img {
+    width: 290px;
+    height: 311px;
+    margin: 40px 0px;
+}
+
+.heal-items a {
+    color: #ffffff;
+    font-size: 16px;
+}
+
+/* Our Programe Styles */
+.ourprogrm-full h1 {
+    display: flex;
+    justify-content: center;
+    margin: 80px;
+}
+
+.our_progrm {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    color: #ffffff;
+}
+
+.progrm-items {
+    background-color: #936F01;
+    width: 200px;
+    height: 200px;
+    margin: 80px;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transform: rotate(45deg);
+    justify-content: center;
+}
+
+.progrm-items img {
+    margin-right: 70px;
+}
+
+.progrm-items > * {
+    transform: rotate(-45deg);
+}
+
+.progrm-items p {
+    margin: 2px 0;
+}
+
+/* Stories Styles */
+.stories {
+    margin: 60px 0px;
+}
+
+.stories h1 {
+    display: flex;
+    color: #0a0903;
+    justify-content: center;
+    margin: 80px;
+}
+
+.someee {
+    padding: 100px 0px;
+    background-color: rgba(255, 237, 183, 0.784);
+}
+
+.over p {
+    align-items: center;
+    text-align: center;
+}
+
+.over {
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin: 0 32%;
+    padding: 50px;
+    width: 750px;
+    height: 300px;
+}
+
+.lower {
+    padding-left: 80px;
+}
+
+.lower h6 {
+    color: #936F01;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.lower img {
+    width: 60px;
+    height: 60px;
+}
+
+.control-icon {
+    display: flex;
+    margin-top: 200px;
+    background-color: #936F01;
+    width: 50px;
+}
+
+/* Footer Styles */
+.review {
+    background-color: rgba(255, 237, 183, 0.284);
+    border: solid 2px #936F01;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.screenF {
+    width: 100%;
+    display: flex;
+    padding: 50px 0px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    background-image: url("images/leaf1.png"), url("images/leaf2.png");
+    background-repeat: no-repeat, no-repeat;
+    background-position: left bottom, right top;
+}
+
+.footers {
+    width: 855px;
+    height: 567px;
+}
+
+.footers img {
+    margin-bottom: 50px;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+}
+
+.footer-list,
+.iframe-container {
+    flex: 1;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.footer-menu li {
+    list-style: none;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 50px;
+}
+
+.contact-list li {
+    margin-bottom: 5px;
+}
+
+.screenL {
+    text-align: center;
+    background-color: #fff3ce;
+}

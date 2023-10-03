@@ -1,0 +1,45 @@
+nav {
+    display: flex;
+    max-width: 1640px;
+    height: 100px; 
+    font-family: 'Poppins', sans-serif;  
+    margin: 20px auto; 
+}
+
+nav .nav-link{
+    width: auto;
+    height: 40px;
+    color: rgba(48, 46, 46, 0.851);
+    letter-spacing: 0.2px;
+}
+nav .new:hover{
+    color: rgba(7, 7, 7, 0.851);
+    border-bottom: 1px solid  #936F01;
+    }
+  
+.logo img {
+    margin: 10px 60px;
+    width: 258px;
+    height: 106px; 
+    
+}
+.logo{
+    border-radius: 0 0 50% 50%/ 0 0 50% 50%;
+    position:relative;
+    z-index: 1;
+    background-color: rgb(253, 253, 253);
+}
+button {
+    background-color: #936F01;
+    width: auto;
+    height: 40px;
+    color: white;
+    border: none;
+    padding: 8px;
+    font-weight: bold;
+    cursor: pointer;   
+}
+
+button:hover {
+    background-color: #6a530e;
+}

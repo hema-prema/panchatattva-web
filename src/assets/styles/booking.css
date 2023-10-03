@@ -1,0 +1,57 @@
+/* Booking Section */
+.booking {
+    display: flex;
+    align-items: center;
+    background-color: #936f01;
+    border-radius: 25px;
+    margin: 80px;
+}
+
+.booking-img {
+    padding-left: 350px;
+}
+
+.image-container {
+    display: block;
+    margin-bottom: 200px;
+}
+
+/* Appointment Form Styles */
+.appointment-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Grid Styles */
+.form-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+/* Form Input Styles */
+.form-input {
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #936f01;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+/* Form Button Styles */
+.form-button {
+    width: 100%;
+    background-color: #936f01;
+    color: #fff;
+    padding: 5px 20px;
+    font-size: 18px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    cursor: pointer;
+}
